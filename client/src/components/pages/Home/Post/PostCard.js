@@ -226,7 +226,15 @@ export const PostCard = ({ post }) => {
               </IconButton>
               
             </Grid>
-           
+            <Grid item>
+              <IconButton onClick={handleBookmarkBtn}>
+                {bookmarkStatus ? (
+                  <FontAwesomeIcon icon={faBookmarkSolid} />
+                ) : (
+                  <FontAwesomeIcon icon={faBookmarkRegular} />
+                )}
+              </IconButton>
+            </Grid>
           </Grid>
         </CardActions>
         <Accordion variant="elevation">
