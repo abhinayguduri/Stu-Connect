@@ -42,6 +42,9 @@ export const Home = ({ children }) => {
             </div>
           </Grid>
           <Grid item md={3}>
+          <div className="alert">
+              If you are using the live version please note that this is hosted on a free hosting so photo uploads wont work because of the hosting provider restrictions 
+            </div>
             <HomeRightBar />
           </Grid>
         </Grid>

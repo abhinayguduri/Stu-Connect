@@ -54,7 +54,7 @@ exports.signup = (req, res) => {
           const link = "https://stu-connect-client.vercel.app/verify/"+email+"/"+verify_code;
           const mailOptions = {
             from: 'stuconnect@gmail.com', // Sender's email address
-            to: 'guduriabhinay@gmail.com', // Recipient's email address
+            to: email, // Recipient's email address
             subject: 'Verify your stuconnect Account', // Email subject
             html: `<html>
             <body>
