@@ -1,1 +1,1 @@
-export const API = "/api/v1";
+export const API = "https://stu-connect.vercel.app/api/v1";
