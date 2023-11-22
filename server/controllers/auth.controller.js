@@ -51,7 +51,7 @@ exports.signup = (req, res) => {
             errorMsg: "An error occured while processing the request",
           })
         }else{
-          const link = "http://localhost:3000/verify/"+email+"/"+verify_code;
+          const link = "https://stu-connect-client.vercel.app/verify/"+email+"/"+verify_code;
           const mailOptions = {
             from: 'stuconnect@gmail.com', // Sender's email address
             to: 'guduriabhinay@gmail.com', // Recipient's email address
